@@ -1,0 +1,31 @@
+{
+  "private": true,
+  "name": "vue-graphql-app",
+  "productName": "vue-graphql-app",
+  "description": "Vue example app",
+  "version": "0.0.0",
+  "license": "MIT",
+  "scripts": {
+    "dev": "poi",
+    "build": "poi build",
+    "report": "poi build --bundle-report",
+    "serve": "serve dist --single"
+  },
+  "author": {
+    "name": "guschiavon",
+    "email": "hello@itsgus.dev"
+  },
+  "dependencies": {
+    "apollo-boost": "^0.4.9",
+    "graphql": "^15.5.3",
+    "normalize.css": "^7.0.0",
+    "object-assign": "^4.1.1",
+    "promise-polyfill": "^6.0.2",
+    "vue-apollo": "^3.0.7"
+  },
+  "devDependencies": {
+    "poi": "^9.0.0",
+    "poi-preset-bundle-report": "^2.0.0",
+    "serve": "^6.1.0"
+  }
+}

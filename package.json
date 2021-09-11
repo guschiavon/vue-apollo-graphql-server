@@ -1,0 +1,15 @@
+{
+  "name": "vue-apollo-graphql-server",
+  "version": "1.0.0",
+  "description": "A server for Vue apps using GraphQL and Apollo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Gus Schiavon",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server": "^3.3.0",
+    "graphql": "^15.5.3"
+  }
+}
